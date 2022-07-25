@@ -1,0 +1,401 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+$colorPrincipal: white;
+$colorSecundario: black;
+$tipoGrafia: Georgia, "Times New Roman", Times, serif;
+
+
+body {
+    font-family: $tipoGrafia;
+    background-image: url(https://img.freepik.com/vector-gratis/aplicacion-pc-telefono-grafico-negocios-datos-analiticos_76964-144.jpg?w=900);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    width: auto;
+    display: grid;
+    
+}
+.body{
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+    .conteiner{
+        gap: 10px;
+    }
+
+.main-header {
+    background-image: url(https://img.freepik.com/vector-gratis/aplicacion-pc-telefono-grafico-negocios-datos-analiticos_76964-144.jpg?w=900://www.xtrafondos.com/wallpapers/ciudad-colores-neon-7834.jpg);
+    background-repeat: no-repeat;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     padding: 60px;
+      height: 990px;
+     width: auto;
+   }
+
+.nav {
+     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.logo {
+    display: grid;
+    font-size: 50px;
+   color: $colorPrincipal;
+    font-weight: 10;
+    padding: 15px;
+    font-family: $tipoGrafia;
+}
+
+.menu {
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+
+.menu li {
+    list-style: none;
+    margin: 10px;
+    color: $colorPrincipal;
+}
+
+.menu li a {
+    color: $colorPrincipal;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.menu li a:hover {
+    padding: 5px 10px;
+    background: $colorPrincipal;
+    color: $colorSecundario;
+    border-radius: 15px;
+}
+
+.parrafo-headerUno {
+    font-size: 2rem; 
+    color: $colorPrincipal;
+    height: 200px;
+    margin: 3rem;
+    width: 400px;  
+    top: 40px;
+     }
+   
+   .parrafo-header2 {
+    font-size: 2rem; 
+    color:$colorPrincipal;
+    height: 350px;
+    margin: 3rem;
+    width: 400px; 
+}
+.divCard1{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: auto;
+   
+    height: 151px;
+}
+.conteiner{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.card{
+    width: 500px;
+    height: 100px;
+    border-radius: 8px;
+    
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.card-text {
+    font-size: 25px;
+}
+
+.card-title {
+    font-size: 30px;
+}
+
+.gridDos {
+    display: grid;
+    grid-template-columns: 45% 45%;
+}
+
+.titulomarke {
+    font-size: 35px;
+    margin: 30px;
+}
+
+.imagenMark {
+    width: 400px;
+    border: 2px solid $colorSecundario;
+
+}
+
+.parrafo3 {
+    font-size: 30px;
+    margin: 25px;
+}
+
+.menu2 {
+     display: flex;
+     color: $colorPrincipal;
+     justify-content: space-between;
+}
+
+.menu2 li {
+    list-style: none;
+    margin: 10px;
+    color: $colorPrincipal;
+}
+
+.menu2 li a {
+    color: $colorSecundario;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    font-size: 20px;
+}
+
+
+.menu2 li a:hover {
+    padding: 5px 10px;
+    background: $colorSecundario;
+    color: $colorPrincipal;
+    border-radius: 15px;
+}
+
+.info {
+    display: grid;
+    place-content: center;
+    background:$colorPrincipal;
+    text-align: center;
+}
+
+
+.footerr{
+    color: $colorSecundario;
+   background-color: rgb(65, 10, 218);
+    font-size: 25px;
+}
+.conteiner{
+    display: grid;
+    grid-template-rows: auto;
+}
+
+
+/*Productos*/
+.bodyProductos {
+    
+    padding: 20px;
+    display: grid;
+    color: white;
+    grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+    justify-content: center;
+  
+  }
+  
+  .padre {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+   
+  }
+
+#Titulo {
+    font-size: 35px;
+    color:$colorPrincipal;
+}
+
+.div1 {
+    color: $colorPrincipal;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.divA {
+    margin: 30px;
+}
+
+.div1:hover {
+    padding: 5px 10px;
+    background: $colorSecundario;
+    color: $colorPrincipal;
+    border-radius: 15px;
+}
+
+.div2 {
+    color: $colorPrincipal;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.div2:hover {
+    padding: 5px 10px;
+    background: $colorSecundario;
+    color: $colorPrincipal;
+    border-radius: 15px;
+}
+
+.divB {
+    margin: 30px;
+}
+
+.div3 {
+    color: $colorPrincipal;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.div3:hover {
+    padding: 5px 10px;
+    background: $colorSecundario;
+    color:$colorPrincipal;
+    border-radius: 15px;
+}
+
+.padre .div3 .github {
+    text-decoration: none;
+   color:$colorPrincipal;
+   margin: 30px;
+}
+
+#pieProducto {
+    display: grid;
+    text-decoration: none;
+    color: $colorPrincipal;
+    list-style: none;
+}
+
+#pieProducto #inicio {
+    text-decoration: none;
+    color: $colorPrincipal;
+}
+
+#pieDiv {
+    display: grid;
+    justify-items: center;
+    font-size: 25px;
+}
+
+/*Servicio css*/
+.DivServicios {
+    color:$colorPrincipal;
+    margin: 30px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 25px;
+    display: grid;
+    align-content: space-between;
+}
+
+.divDesarrollo {
+    margin: 20px;
+    display: grid;
+    justify-content: start;
+}
+
+.listaDesarrollo {
+    display: grid;
+    justify-content: start;
+    margin: 20px;
+}
+
+.divDiseño {
+    margin: 30px;
+}
+
+.listaDiseño {
+    display: grid;
+    justify-content: start;
+    margin: 20px;
+}
+
+/*nosotros*/
+.parrafoNosotros {
+    display: flex;
+    font-size: 35px;
+    color: $colorPrincipal;
+    flex-wrap: wrap;
+}
+
+.parrafoHijo {
+    margin: 30px;
+    padding: 30px;
+    align-items: center;
+    bottom: unset;
+}
+
+/*tecnologia*/
+
+
+    .divTecnologia {
+    font-size: 25px;
+    color: $colorPrincipal;
+    row-gap: 25px;
+    text-decoration: none;
+    list-style: none;
+    }
+
+.conteinerContacto {
+    height: 500px;
+    width: 500px;
+    color: $colorPrincipal;
+}
+
+.formulario {
+    color: $colorPrincipal;
+    height: auto;
+    width: auto;
+    padding: 10px;
+}
+
+#inicio {
+    text-decoration: none;
+    list-style: none; 
+    color: $colorSecundario;
+}
+
+/*recursos humanos*/
+.titulo {
+    font-size: 40px;
+    color: $colorPrincipal;
+}
+
+.formularioPadre {
+    width: 800px;
+    height: 40px;
+}
+
+.formulario {
+    display: block;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+}
+
+
+/*# sourceMappingURL=estilos.css.map */
